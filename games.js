@@ -1,4 +1,4 @@
-
+  /*jshint esversion: 6 */
 var buttonColours = ["red", "blue", "green", "yellow"];
 
 var gamePattern = [];
@@ -93,13 +93,19 @@ function startOver() {
   gamePattern = [];
   started = false;
 }
-// function timer(){
-//   level++;
-//  alert("Out Of Time Better Luck Next time");
-// playSound("wrong");
-//
-//
-//    $("#level-title").text("Game Over, Press Any Key to Restart");
-// startOver();
-// }
-// nextSequence(timer());
+// not working!! Game timer ....
+//  setInterval(function gameTimer() {
+//    if (userClickedPattern.length === gamePattern.length){
+// clearInterval(gameTimer);
+//    }
+//    else {
+//      alert("Out Of Time Better Luck Next time");
+//      console.log("wrong");
+//      playSound("wrong");
+//      $("#level-title").text("Game Over, Press Any Key to Restart");
+//      startOver();
+//    }
+
+
+// },8000);
+
